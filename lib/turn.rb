@@ -41,7 +41,7 @@ def turn(board)
     index = input_to_index(input)
     else
       move(board, index, "X")
-      puts "Please enter 1-9: #{board}"
+      puts "Please enter 1-9: #{display_board(board)}"
   end
 
 
