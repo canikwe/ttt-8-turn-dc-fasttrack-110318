@@ -41,4 +41,5 @@ def turn(board, index, token)
   end
   if valid_move(board, index)
     move(board, index, token)
+  end
 end
